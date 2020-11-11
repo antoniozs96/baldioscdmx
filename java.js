@@ -9,7 +9,7 @@ function initMap() {
       zoom: 11,
       center: {lat: 19.37278, lng: -99.14772,},
     });
-  map.data.loadGeoJson( 'https://cdn.glitch.com/c2ad09d8-ff46-4f8d-ba20-97e404d0626d%2Fno_bal.geojson?v=1598054286008');
+  map.data.loadGeoJson( 'https://cdn.glitch.com/c2ad09d8-ff46-4f8d-ba20-97e404d0626d%2Fno_bal.geojson?v=159805428600');
 
   // Set the stroke width, and fill color for each polygon
 map.data.setStyle({
